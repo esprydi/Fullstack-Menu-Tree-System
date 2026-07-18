@@ -2,6 +2,8 @@
 
 Sebuah sistem manajemen menu berarsitektur *fullstack* yang komprehensif. Aplikasi ini memungkinkan pengguna untuk membuat, membaca, memperbarui, menghapus, serta mengatur ulang susunan item menu bersarang (*nested*) secara interaktif menggunakan fitur *drag-and-drop*. Dibangun dengan standar skala *enterprise*.
 
+🎥 **Video Demo:** [Tonton Demo Aplikasi](https://jam.dev/c/672b7a3e-c4ae-4053-8248-68db1b2748c9)
+
 ---
 
 ## 🛠️ Pilihan Teknologi & Keputusan Arsitektur
