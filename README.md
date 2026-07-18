@@ -141,7 +141,7 @@ Antarmuka Swagger ini memungkinkan Anda untuk melihat seluruh endpoint yang ters
 
 ---
 
-## 🗄️ Skema Basis Data & Migrasi
+## 🗄️ Skema Basis Data, Migrasi & Seeding
 
 Basis data pada aplikasi ini mengandalkan pola *Closure Table* dari TypeORM.
 
@@ -150,6 +150,13 @@ Pada lingkungan produksi (production), fitur `synchronize` dinonaktifkan demi ke
 ```bash
 cd backend
 npm run migration:run
+```
+
+**Menjalankan Data Dummy (Seeding):**
+Jika basis data Anda masih kosong, Anda dapat menyuntikkan data *dummy* awal (struktur menu *System Management*) agar tidak perlu membuat dari awal secara manual:
+```bash
+cd backend
+npm run seed
 ```
 
 **Membuat Migrasi Baru:**
